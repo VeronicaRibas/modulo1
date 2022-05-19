@@ -9,7 +9,7 @@ body{
     font-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/PERSONAGEM_3/personagem_tres_img/fase3.gif);
+    background-image: url(PERSONAGEM_3/personagem_tres_img/fase3.gif);
 }
 
 .titulo{

@@ -9,7 +9,7 @@ body{
     font-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/PERSONAGEM_2/personagem_dois_img/fase7.gif);
+    background-image: url(PERSONAGEM_2/personagem_dois_img/fase7.gif);
 }
 
 .titulo{

@@ -7,7 +7,7 @@
 
 body{
     font-size: 100%;
-    background-image: url(/PERSONAGEM_1/personagem_um_img/fase4.jpg);
+    background-image: url(PERSONAGEM_1/personagem_um_img/fase4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
