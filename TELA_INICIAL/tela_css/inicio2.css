@@ -12,7 +12,7 @@
 
 body{
     font-size: 100%;
-    background-image: url(/TELA_INICIAL/tela_img/esse.gif);
+    background-image: url("TELA_INICIAL/tela_img/esse.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -60,7 +60,6 @@ body{
 .botao1:hover{
     background-color: rgb(43, 4, 67);
 }
-
 
 
 .botao1{
