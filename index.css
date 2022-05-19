@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=PT+Serif:ital@1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(terror.gif)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.cabecalhologo{
+    height: 70px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menuitem{
+    font-family: 'PT Serif', serif;
+    color: #070707;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #080808;
+    margin-bottom: 48px;
+}
+
+.conteudoinicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudoinicio1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.conteudotitulo{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #fffbfb;
+    margin-top: 30px;
+
+}
+
+
+.conteudobotao{
+    background-color: #463401;
+    color:#d3cccc;
+    width: 120px;
+    height: 70px;
+    border: none;
+    box-shadow: 4px 5px 4px #b8860b;
+    border-radius: 20px;
+    font-family: 'PT Serif', serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.conteudobotao:hover{
+    background-color: chocolate;
+}
+
+
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin-top: 48px;
+}
+
+.conteudo2titulo{
+    border-top: 0.4px solid #b8860b;
+    padding-top: 40px;
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #dbd8ce;
+}
+
+.conteudo2paragrafo{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #f3f1ec;
+}
+

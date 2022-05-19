@@ -1,0 +1,86 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=PT+Serif:ital@1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(/TELA_INICIAL/tela_img/esse.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.escolha{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Serif', serif;
+    padding: 30px;
+}
+
+.conteudotitulo{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top{
+    max-width: 300px; 
+}
+
+.botao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+ }
+
+
+.botao1:hover{
+    background-color: rgb(43, 4, 67);
+}
+
+
+
+.botao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botao{
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 60px;
+    border:none;
+    box-shadow: 4px 5px 4px rgb(47, 72, 94);
+    border-radius:25px;
+}
+
+.botao:hover{
+    background-color: rgb(48, 6, 90);
+}

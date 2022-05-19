@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/PERSONAGEM_3/personagem_tres_img/jigsaw.gif)
+
+}
+
+.titulo{
+    font-family: 'Creepster', cursive; 
+    color: rgb(255, 233, 224);
+    font-weight: 500;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.subtitulo{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+    font-size: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.resumo{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resumo2{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(253, 251, 250);
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;    
+}
+
+.selecao{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(253, 248, 246);
+    font-weight: 500;
+    font-size:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botao{
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 60px;
+    border:none;
+    box-shadow: 4px 5px 4px rgb(47, 72, 94);
+    border-radius:25px;
+}
+
+.botao:hover{
+    background-color: rgb(218, 23, 23);
+}

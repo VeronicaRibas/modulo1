@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/PERSONAGEM_1/personagem_um_img/fase1.png);
+}
+
+.nome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'Creepster', cursive; 
+    font-size: 50px;
+}
+
+.frase1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.frase2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(231, 231, 231);
+}
+
+.frase3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.frase4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}

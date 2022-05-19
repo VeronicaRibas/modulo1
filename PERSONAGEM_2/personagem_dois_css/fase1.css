@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/PERSONAGEM_2/personagem_dois_img/fase1.gif);
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'Creepster', cursive; 
+    font-size: 50px;
+}
+
+.frase1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(231, 231, 231);
+    font-size: 30px;
+}
+
+.frase2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.frase3{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(250, 245, 245);
+    font-weight: 800;
+    font-size: 30px;
+}
