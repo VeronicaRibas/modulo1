@@ -12,7 +12,7 @@
 
 body{
     font-size: 100%;
-    background-image: url("TELA_INICIAL/tela_img/esse.gif");
+    background-image: url("../tela_img/esse.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
